@@ -23,6 +23,7 @@ public class Car {
     private String carPhotoUrl;
     private String carColor;
     private String carDescription;
+    @OneToMany(mappedBy = "car", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Booking> bookings = new ArrayList<>();
 
     @Override

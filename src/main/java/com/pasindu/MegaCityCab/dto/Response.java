@@ -9,7 +9,7 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Response {
 
-    private String statusCode;
+    private int statusCode;
     private String message;
     private String token;
     private String role;
@@ -20,4 +20,5 @@ public class Response {
     private List<UserDTO> userList;
     private List<CarDTO> carList;
     private List<BookingDTO> bookingList;
+
 }

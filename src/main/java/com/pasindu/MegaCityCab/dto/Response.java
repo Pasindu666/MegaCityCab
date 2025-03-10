@@ -14,9 +14,10 @@ public class Response {
     private String token;
     private String role;
     private String expirationTime;
-    private String bookingConfirmationCode;;
+    private String ConfirmationCode;;
     private UserDTO user;
     private CarDTO car;
+    private BookingDTO booking;
     private List<UserDTO> userList;
     private List<CarDTO> carList;
     private List<BookingDTO> bookingList;
